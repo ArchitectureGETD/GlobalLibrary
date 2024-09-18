@@ -1,0 +1,13 @@
+<Project>
+
+  <PropertyGroup>
+
+    <Copyright>Copyright © 2023</Copyright>
+
+    <Version>5.5.13.2</Version>
+    <AssemblyVersion>5.5.13.2</AssemblyVersion>
+    <FileVersion>5.5.13.2</FileVersion>
+      
+  </PropertyGroup>
+
+</Project>

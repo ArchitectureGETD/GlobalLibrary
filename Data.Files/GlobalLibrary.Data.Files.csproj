@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>GlobalLibrary.Data.Files</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\VersionInfo.proj" Link="VersionInfo.proj" />
+  </ItemGroup>
+
+  <Import Project="..\VersionInfo.proj" />
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharpNetStandard2" Version="1.51.4845" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iTextsharp\iTextSharp.GE.xtra\iTextSharp.GE.xtra.csproj" />
+    <ProjectReference Include="..\iTextsharp\itextsharp.GE\itextsharp.GE.csproj" />
+  </ItemGroup>
+
+</Project>

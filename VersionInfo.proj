@@ -1,0 +1,18 @@
+<Project>
+
+	<PropertyGroup>
+
+		<Copyright>Copyright © 2023</Copyright>
+
+		<Version>1.1.0</Version>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+		<FileVersion>$(Version)</FileVersion>
+
+		<Company>GlobalExchange</Company>
+		<Authors>GlobalExchange</Authors>
+		<RepositoryUrl>https://tfs.globex.local/GlobalExchange/Architecture/_git/ARQ_NCore</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+	</PropertyGroup>
+
+</Project>
